@@ -2,7 +2,7 @@
 //  MemoryApp.swift
 //  Memory WatchKit Extension
 //
-//  Created by Guillermo Frias on 23/05/2021.
+//  Created by Guillermo Frias on 15/01/2021.
 //
 
 import SwiftUI
@@ -12,7 +12,7 @@ struct MemoryApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                ContentView().environmentObject(State())
             }
         }
 

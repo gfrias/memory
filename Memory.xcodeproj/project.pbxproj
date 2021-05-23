@@ -11,12 +11,17 @@
 		998D4D69265AF66F00695E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998D4D68265AF66F00695E3C /* Assets.xcassets */; };
 		998D4D70265AF66F00695E3C /* Memory WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 998D4D6F265AF66F00695E3C /* Memory WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		998D4D75265AF66F00695E3C /* MemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998D4D74265AF66F00695E3C /* MemoryApp.swift */; };
-		998D4D77265AF66F00695E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998D4D76265AF66F00695E3C /* ContentView.swift */; };
 		998D4D79265AF66F00695E3C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998D4D78265AF66F00695E3C /* NotificationController.swift */; };
 		998D4D7B265AF66F00695E3C /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998D4D7A265AF66F00695E3C /* NotificationView.swift */; };
 		998D4D7D265AF66F00695E3C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998D4D7C265AF66F00695E3C /* ComplicationController.swift */; };
-		998D4D7F265AF67000695E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998D4D7E265AF67000695E3C /* Assets.xcassets */; };
 		998D4D82265AF67000695E3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998D4D81265AF67000695E3C /* Preview Assets.xcassets */; };
+		998D4D96265AF6AD00695E3C /* 342.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 998D4D92265AF6AD00695E3C /* 342.mp3 */; };
+		998D4D97265AF6AD00695E3C /* 457.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 998D4D93265AF6AD00695E3C /* 457.mp3 */; };
+		998D4D98265AF6AD00695E3C /* 228.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 998D4D94265AF6AD00695E3C /* 228.mp3 */; };
+		998D4D99265AF6AD00695E3C /* 272.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 998D4D95265AF6AD00695E3C /* 272.mp3 */; };
+		998D4D9B265AF6B900695E3C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998D4D9A265AF6B900695E3C /* Models.swift */; };
+		998D4D9D265AF73200695E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998D4D9C265AF73200695E3C /* ContentView.swift */; };
+		998D4DA0265AF81B00695E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998D4D9F265AF81B00695E3C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,14 +73,19 @@
 		998D4D6A265AF66F00695E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		998D4D6F265AF66F00695E3C /* Memory WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Memory WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		998D4D74265AF66F00695E3C /* MemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryApp.swift; sourceTree = "<group>"; };
-		998D4D76265AF66F00695E3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		998D4D78265AF66F00695E3C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		998D4D7A265AF66F00695E3C /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		998D4D7C265AF66F00695E3C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		998D4D7E265AF67000695E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		998D4D81265AF67000695E3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		998D4D83265AF67000695E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		998D4D84265AF67000695E3C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		998D4D92265AF6AD00695E3C /* 342.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 342.mp3; sourceTree = "<group>"; };
+		998D4D93265AF6AD00695E3C /* 457.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 457.mp3; sourceTree = "<group>"; };
+		998D4D94265AF6AD00695E3C /* 228.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 228.mp3; sourceTree = "<group>"; };
+		998D4D95265AF6AD00695E3C /* 272.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 272.mp3; sourceTree = "<group>"; };
+		998D4D9A265AF6B900695E3C /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		998D4D9C265AF73200695E3C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../Simon/Simon WatchKit Extension/ContentView.swift"; sourceTree = "<group>"; };
+		998D4D9F265AF81B00695E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,12 +130,14 @@
 		998D4D73265AF66F00695E3C /* Memory WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				998D4D9E265AF7A700695E3C /* sounds */,
+				998D4D9A265AF6B900695E3C /* Models.swift */,
 				998D4D74265AF66F00695E3C /* MemoryApp.swift */,
-				998D4D76265AF66F00695E3C /* ContentView.swift */,
+				998D4D9C265AF73200695E3C /* ContentView.swift */,
 				998D4D78265AF66F00695E3C /* NotificationController.swift */,
 				998D4D7A265AF66F00695E3C /* NotificationView.swift */,
 				998D4D7C265AF66F00695E3C /* ComplicationController.swift */,
-				998D4D7E265AF67000695E3C /* Assets.xcassets */,
+				998D4D9F265AF81B00695E3C /* Assets.xcassets */,
 				998D4D83265AF67000695E3C /* Info.plist */,
 				998D4D84265AF67000695E3C /* PushNotificationPayload.apns */,
 				998D4D80265AF67000695E3C /* Preview Content */,
@@ -139,6 +151,17 @@
 				998D4D81265AF67000695E3C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		998D4D9E265AF7A700695E3C /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				998D4D94265AF6AD00695E3C /* 228.mp3 */,
+				998D4D95265AF6AD00695E3C /* 272.mp3 */,
+				998D4D92265AF6AD00695E3C /* 342.mp3 */,
+				998D4D93265AF6AD00695E3C /* 457.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998D4D99265AF6AD00695E3C /* 272.mp3 in Resources */,
+				998D4D98265AF6AD00695E3C /* 228.mp3 in Resources */,
+				998D4D96265AF6AD00695E3C /* 342.mp3 in Resources */,
+				998D4D97265AF6AD00695E3C /* 457.mp3 in Resources */,
+				998D4DA0265AF81B00695E3C /* Assets.xcassets in Resources */,
 				998D4D82265AF67000695E3C /* Preview Assets.xcassets in Resources */,
-				998D4D7F265AF67000695E3C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				998D4D79265AF66F00695E3C /* NotificationController.swift in Sources */,
-				998D4D77265AF66F00695E3C /* ContentView.swift in Sources */,
+				998D4D9D265AF73200695E3C /* ContentView.swift in Sources */,
 				998D4D7D265AF66F00695E3C /* ComplicationController.swift in Sources */,
+				998D4D9B265AF6B900695E3C /* Models.swift in Sources */,
 				998D4D75265AF66F00695E3C /* MemoryApp.swift in Sources */,
 				998D4D7B265AF66F00695E3C /* NotificationView.swift in Sources */,
 			);
